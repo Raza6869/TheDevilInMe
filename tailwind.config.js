@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,6 +14,10 @@ module.exports = {
         redbase: "#C90000",
         darkred: "#7B0909",
         footer: "#414141",
+      },
+      fontFamily: {
+        gothic: ["var(--font-gothic)"],
+        andadaPro: ["var(--font-andada-pro)"],
       },
     },
   },

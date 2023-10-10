@@ -1,5 +1,5 @@
 import "./globals.css";
-import { gothic } from "@/assets/fonts";
+import { gothic, andadaPro } from "@/assets/fonts";
 
 export const metadata = {
   title: "The Devil In Me || Rafael Thumaza",
@@ -9,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-Br">
-      <body className={gothic.className}>{children}</body>
+      <body className={`${gothic.variable} ${andadaPro.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

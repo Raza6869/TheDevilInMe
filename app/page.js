@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Apresentation from "@/components/apresentation";
 
 export default function Home() {
   return (
-    <main>
-      <h1>TAMO ON</h1>
+    <main className="flex flex-col w-full">
+      <Apresentation />
     </main>
   );
 }
