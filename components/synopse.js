@@ -1,0 +1,33 @@
+import Image from "next/image";
+
+import duMet from "@/svg/synopsedumet.svg";
+
+export default function Synopse() {
+  return (
+    <div className="bg-[#252323] mx-56 h-[80vh] rounded-[6rem]">
+      <div className="bg-[url('../images/synopsebackground.png')] bg-contain bg-no-repeat bg-bottom h-full flex ">
+        <Image
+          src={duMet}
+          alt="Du'Met"
+          className="h-[100%] w-fit -mr-48 mix-blend-luminosity"
+        />
+        <div className="text-right font-andadaPro py-16 px-20 flex flex-col gap-10">
+          <h1 className="font-bold text-5xl text-redbase">
+            POR QUE A PRESSA? COMEÇAMOS AGORA
+          </h1>
+          <p className="font-gothic text-white ml-20">
+            The Devil In Me é um jogo Thriller interativo onde você tem o
+            controle de cinco documentaristas que foram convidados à visitar uma
+            réplica do “Castelo da Morte” de H. H. Holmes, o primeiro assassino
+            em série americano. Mas ao chegarem lá, perceberam que estão sendo
+            observados e até manipulados, e de repente, há muito mais em jogo do
+            que imaginam...
+          </p>
+          <a className="text-redbase text-center font-bold text-3xl ml-20">
+            SAIBA MAISs
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
