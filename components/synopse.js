@@ -5,7 +5,7 @@ import duMet from "@/svg/synopsedumet.svg";
 export default function Synopse() {
   return (
     <div className="bg-[#252323] h-[600px] max-w-[1050px] first-letter: rounded-[6rem] my-12">
-      <div className="bg-[url('../images/synopsebackground.png')] bg-contain bg-no-repeat bg-bottom h-full flex ">
+      <div className="bg-[url('../images/synopsebackground.png')] bg-contain rounded-[6rem] bg-no-repeat bg bg-bottom h-full flex">
         <Image
           src={duMet}
           alt="Du'Met"
@@ -23,7 +23,7 @@ export default function Synopse() {
             observados e até manipulados, e de repente, há muito mais em jogo do
             que imaginam...
           </p>
-          <a className="text-redbase text-center font-bold text-3xl ml-20">
+          <a className="text-redbase text-center font-bold text-3xl ml-20 justify-center cursor-pointer flex gap-2 hover:gap-4 transition-all duration-500 hover:text-red-600 hover:scale-110">
             SAIBA MAIS{" "}
             <span>
               <i class="bi bi-arrow-right"></i>

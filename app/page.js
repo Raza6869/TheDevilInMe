@@ -4,6 +4,7 @@ import Synopse from "@/components/synopse";
 import Trailer from "@/components/trailer";
 
 import darkforest from "@/images/darkbackgroundforest.png";
+import Characters from "@/components/characters";
 
 export default function Home() {
   return (
@@ -12,7 +13,10 @@ export default function Home() {
       <div className="bg-[url('../images/trailerbackground.png')] bg-contain bg-no-repeat bg-fixed bg-top w-full items-center flex flex-col justify-center">
         <Synopse />
         <Trailer />
-        <Image src={darkforest} alt="floresta negra" className="" />
+        <Image src={darkforest} alt="floresta negra" className="-mt-20" />
+      </div>
+      <div className="bg-darkgray w-full">
+        <Characters />
       </div>
     </main>
   );
