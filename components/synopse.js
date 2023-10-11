@@ -1,10 +1,16 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 import duMet from "@/svg/synopsedumet.svg";
 
 export default function Synopse() {
   return (
-    <div className="bg-[#252323] h-[600px] max-w-[1050px] first-letter: rounded-[6rem] my-12">
+    <motion.div
+      initial={{ opacity: 0.5, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1, type: "spring", delay: 0.7 }}
+      className="bg-[#252323] h-[600px] max-w-[1050px] first-letter: rounded-[6rem] my-12 scale-90 "
+    >
       <div className="bg-[url('../images/synopsebackground.png')] bg-contain rounded-[6rem] bg-no-repeat bg bg-bottom h-full flex">
         <Image
           src={duMet}
@@ -31,6 +37,6 @@ export default function Synopse() {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

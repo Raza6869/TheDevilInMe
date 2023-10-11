@@ -1,9 +1,15 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import DarkPictureLogo from "@/svg/darkpictureslogo.svg";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between max-w-[535px] ">
+    <motion.header
+      initial={{ opacity: 0, translateX: "-100px" }}
+      animate={{ opacity: 1, translateX: 0 }}
+      transition={{ duration: 1, type: "linear", delay: 0.5 }}
+      className="flex items-center justify-between max-w-[535px] "
+    >
       <Image
         src={DarkPictureLogo}
         alt="Logo da Dark Pictures"
@@ -14,6 +20,6 @@ export default function Header() {
         <li className="hover:text-darkred cursor-pointer">personagens</li>
         <li className="hover:text-darkred cursor-pointer">compre agora</li>
       </ul>
-    </header>
+    </motion.header>
   );
 }

@@ -1,7 +1,12 @@
+import { motion } from "framer-motion";
+
 export default function Trailer() {
   return (
     <div className=" h-screen  flex justify-center items-center w-full">
-      <iframe
+      <motion.iframe
+        initial={{ opacity: 0.5, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1, type: "spring", delay: 1 }}
         className="rounded-md"
         width="840"
         height="472,5"
@@ -10,7 +15,7 @@ export default function Trailer() {
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
+      ></motion.iframe>
     </div>
   );
 }
