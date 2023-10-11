@@ -5,7 +5,7 @@ import title from "@/images/hometitle.png";
 
 export default function Apresentation() {
   return (
-    <div className="bg-[url('../images/homebackground.png')] h-[95vh] px-32 py-10 bg-cover font-andadaPro">
+    <div className="bg-[url('../images/homebackground.png')] h-screen px-32 py-10 bg-cover bg-no-repeat font-andadaPro w-full items-center">
       <Header />
       <div className="flex flex-col mt-20">
         <div className="">
@@ -14,9 +14,9 @@ export default function Apresentation() {
             já disponível
           </span>
         </div>
-        <p className="text-xl w-[45%]">
-          Será que você consegue sobreviver a uma noite em um hotel onde matar é
-          arte?
+        <p className="text-xl ">
+          Será que você consegue sobreviver a uma noite em um hotel <br /> onde
+          matar é arte?
         </p>
         <button className="bg-darkred  text-white uppercase w-48 px-4 py-3 mt-10 rounded-md hover:scale-110 hover:bg-red-600 transition-all duration-700">
           compre agora

@@ -3,7 +3,7 @@ import Synopse from "@/components/synopse";
 
 export default function Home() {
   return (
-    <main className="flex flex-col w-full">
+    <main className="flex flex-col justify-center items-center">
       <Apresentation />
       <Synopse />
     </main>

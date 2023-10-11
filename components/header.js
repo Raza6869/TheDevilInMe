@@ -3,7 +3,7 @@ import DarkPictureLogo from "@/svg/darkpictureslogo.svg";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between w-[42%] ">
+    <header className="flex items-center justify-between max-w-[535px] ">
       <Image
         src={DarkPictureLogo}
         alt="Logo da Dark Pictures"

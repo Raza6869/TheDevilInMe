@@ -4,7 +4,7 @@ import duMet from "@/svg/synopsedumet.svg";
 
 export default function Synopse() {
   return (
-    <div className="bg-[#252323] mx-56 h-[80vh] rounded-[6rem] my-12">
+    <div className="bg-[#252323] h-[600px] max-w-[1050px] first-letter: rounded-[6rem] my-12">
       <div className="bg-[url('../images/synopsebackground.png')] bg-contain bg-no-repeat bg-bottom h-full flex ">
         <Image
           src={duMet}
