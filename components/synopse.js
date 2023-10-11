@@ -4,12 +4,12 @@ import duMet from "@/svg/synopsedumet.svg";
 
 export default function Synopse() {
   return (
-    <div className="bg-[#252323] mx-56 h-[80vh] rounded-[6rem]">
+    <div className="bg-[#252323] mx-56 h-[80vh] rounded-[6rem] my-12">
       <div className="bg-[url('../images/synopsebackground.png')] bg-contain bg-no-repeat bg-bottom h-full flex ">
         <Image
           src={duMet}
           alt="Du'Met"
-          className="h-[100%] w-fit -mr-48 mix-blend-luminosity"
+          className="h-[100%] w-fit -mr-48 scale-110 -mt-8 "
         />
         <div className="text-right font-andadaPro py-16 px-20 flex flex-col gap-10">
           <h1 className="font-bold text-5xl text-redbase">
@@ -24,7 +24,10 @@ export default function Synopse() {
             que imaginam...
           </p>
           <a className="text-redbase text-center font-bold text-3xl ml-20">
-            SAIBA MAISs
+            SAIBA MAIS{" "}
+            <span>
+              <i class="bi bi-arrow-right"></i>
+            </span>
           </a>
         </div>
       </div>

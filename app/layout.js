@@ -1,4 +1,5 @@
 import "./globals.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import { gothic, andadaPro } from "@/assets/fonts";
 
 export const metadata = {
