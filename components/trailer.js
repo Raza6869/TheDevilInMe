@@ -1,6 +1,6 @@
 export default function Trailer() {
   return (
-    <div className="bg-[url('../images/trailerbackground.png')] h-screen bg-contain bg-no-repeat bg-top flex justify-center items-center w-full">
+    <div className=" h-screen  flex justify-center items-center w-full">
       <iframe
         className="rounded-md"
         width="840"
