@@ -1,6 +1,6 @@
 import "./globals.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { gothic, andadaPro } from "@/assets/fonts";
+import { gothic, andadaPro, kronaOne } from "@/assets/fonts";
 
 export const metadata = {
   title: "The Devil In Me || Rafael Thumaza",
@@ -10,7 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-Br">
-      <body className={`${gothic.variable} ${andadaPro.variable}`}>
+      <body
+        className={`${gothic.variable} ${andadaPro.variable} ${kronaOne.variable}`}
+      >
         {children}
       </body>
     </html>
