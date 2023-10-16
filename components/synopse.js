@@ -1,6 +1,9 @@
+"use client";
+//next imports
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+//media
 import duMet from "@/svg/synopsedumet.svg";
 
 export default function Synopse() {

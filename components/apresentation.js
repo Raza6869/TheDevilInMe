@@ -1,7 +1,10 @@
+"use client";
+//next imports
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Header from "./header";
 
+//media
 import title from "@/images/hometitle.png";
 
 export default function Apresentation() {

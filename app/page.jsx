@@ -1,9 +1,10 @@
-"use client";
+//next imports
 import Image from "next/image";
 import Apresentation from "@/components/apresentation";
 import Synopse from "@/components/synopse";
 import Trailer from "@/components/trailer";
 
+//media
 import darkforest from "@/images/darkbackgroundforest.png";
 import Characters from "@/components/characters";
 

@@ -1,5 +1,9 @@
+"use client";
+//next imports
 import { motion } from "framer-motion";
 import Image from "next/image";
+
+//media
 import DarkPictureLogo from "@/svg/darkpictureslogo.svg";
 
 export default function Header() {
