@@ -1,7 +1,11 @@
+//next imports
 import { motion } from "framer-motion";
 import Image from "next/image";
+
+//components
 import Header from "./header";
 
+//midias
 import title from "@/images/hometitle.png";
 
 export default function Apresentation() {

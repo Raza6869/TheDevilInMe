@@ -1,6 +1,8 @@
+//next imports
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+//midias
 import duMet from "@/svg/synopsedumet.svg";
 
 export default function Synopse() {
@@ -8,7 +10,7 @@ export default function Synopse() {
     <motion.div
       initial={{ opacity: 0.5, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 1, type: "spring", delay: 0.7 }}
+      transition={{ duration: 1, type: "spring", delay: 0.5 }}
       className="bg-[#252323] h-[600px] max-w-[1050px] first-letter: rounded-[6rem] my-12 scale-90 "
     >
       <div className="bg-[url('../images/synopsebackground.png')] bg-contain rounded-[6rem] bg-no-repeat bg bg-bottom h-full flex">

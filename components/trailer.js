@@ -6,7 +6,7 @@ export default function Trailer() {
       <motion.iframe
         initial={{ opacity: 0.5, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1, type: "spring", delay: 1 }}
+        transition={{ duration: 1, type: "spring", delay: 0.5 }}
         className="rounded-md"
         width="840"
         height="472,5"

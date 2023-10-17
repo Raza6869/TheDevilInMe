@@ -1,11 +1,16 @@
 "use client";
+
+//next imports
 import Image from "next/image";
+
+//components
 import Apresentation from "@/components/apresentation";
 import Synopse from "@/components/synopse";
 import Trailer from "@/components/trailer";
-
-import darkforest from "@/images/darkbackgroundforest.png";
 import Characters from "@/components/characters";
+
+//midia
+import darkforest from "@/images/darkbackgroundforest.png";
 
 export default function Home() {
   return (
