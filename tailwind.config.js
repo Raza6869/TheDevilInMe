@@ -18,6 +18,7 @@ module.exports = {
       fontFamily: {
         gothic: ["var(--font-gothic)"],
         andadaPro: ["var(--font-andada-pro)"],
+        kronaOne: ["var(--font-krona-one)"],
       },
     },
   },

@@ -1,4 +1,10 @@
-import { Gothic_A1, Andada_Pro } from "next/font/google";
+import { Gothic_A1, Andada_Pro, Krona_One } from "next/font/google";
+
+export const kronaOne = Krona_One({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: ["--font-krona-one"],
+});
 
 export const gothic = Gothic_A1({
   subsets: ["latin"],
