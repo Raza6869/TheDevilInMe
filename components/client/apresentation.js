@@ -8,7 +8,7 @@ import Image from "next/image";
 import Header from "./header";
 
 //media
-import title from "../public/images/hometitle.png";
+import title from "@/public/images/hometitle.png";
 
 export default function Apresentation() {
   return (

@@ -6,13 +6,13 @@ import Image from "next/image";
 import Apresentation from "@/components/client/apresentation";
 import Synopse from "@/components/client/synopse";
 import Trailer from "@/components/client/trailer";
-import Characters from "@/components/characters";
+import Characters from "@/components/client/characters";
 
 //context
-import { CharacterProvider } from "@/context/characterContext";
+import CharacterProvider from "@/context/characterProvider";
 
-//media
-import darkforest from "@/images/darkbackgroundforest.png";
+//mediagit
+import darkforest from "@/public/images/darkbackgroundforest.png";
 
 export default function Home() {
   return (

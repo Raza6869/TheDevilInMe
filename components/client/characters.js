@@ -1,39 +1,28 @@
+"use client";
 //next imports
 import Image from "next/image";
 import { useContext } from "react";
 
 //components
 import ButtonSection from "./buttons-section";
+import { data } from "@/data/charcompdb";
 
 //context
 import { CharacterContext } from "@/context/characterContext";
+import useCharContext from "@/hook/useCharContext";
 
 //media
-import charlie from "../public/images/CharlieLonnit.png";
+import charlie from "@/public/images/CharlieLonnit.png";
 
-<<<<<<< HEAD:components/server/characters.js
-export default async function Characters() {
-  const response = await fetch("http://localhost:3000/api ");
-  const data = await response.json();
-
-  console.log(data);
-  return (
-    <div className="h-screen">
-      <div className="bg-[url('../images/charliebackground.png')] bg-cover w-full h-full flex px-72 overflow-hidden">
-        <div className="text-white py-10 flex flex-col justify-around">
-=======
 export default function Characters() {
-  const { char } = useContext(CharacterContext);
+  const { index } = useCharContext();
+  const char = data[index];
 
   console.log(char);
-
   return (
-    <div
-      className={`h-screen flex justify-center bg-[url('../public/images/charliebackground.png')] bg-cover`}
-    >
-      <div className=" h-full flex itens-center w-2/3">
-        <div className="text-white py-4 flex flex-col justify-around">
->>>>>>> f513139a11564b0bc01d2b58707e76d909f8569b:components/characters.js
+    <div className="h-screen">
+      <div className="bg-[url('../public/images/charliebackground.png')] bg-cover w-full h-full flex px-72 overflow-hidden">
+        <div className="text-white py-10 flex flex-col justify-around">
           <div className="font-kronaOne text-8xl uppercase">
             <h1 className="flex flex-col">
               Charlie
