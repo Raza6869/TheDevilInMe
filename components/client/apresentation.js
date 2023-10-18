@@ -24,7 +24,7 @@ export default function Apresentation() {
       >
         <div className="">
           <Image src={title} alt="Titulo" className="h-48 w-fit" />
-          <span className="uppercase text-darkred text-2xl font-bold relative left-[22rem] bottom-12">
+          <span className="uppercase text-darkred text-2xl font-bold relative left-[22.8rem] bottom-12">
             já disponível
           </span>
         </div>

@@ -1,3 +1,5 @@
+"user client";
+
 export default function ButtonSection() {
   return (
     <div className="flex font-andadaPro gap-4 font-bold text-xl ">

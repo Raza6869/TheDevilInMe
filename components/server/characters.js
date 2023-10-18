@@ -5,9 +5,13 @@ import ButtonSection from "./buttons-section";
 //media
 import charlie from "../images/CharlieLonnit.png";
 
-export default function Characters() {
+export default async function Characters() {
+  const response = await fetch("http://localhost:3000/api ");
+  const data = await response.json();
+
+  console.log(data);
   return (
-    <div className="h-screen ">
+    <div className="h-screen">
       <div className="bg-[url('../images/charliebackground.png')] bg-cover w-full h-full flex px-72 overflow-hidden">
         <div className="text-white py-10 flex flex-col justify-around">
           <div className="font-kronaOne text-8xl uppercase">

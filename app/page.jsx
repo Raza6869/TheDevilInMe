@@ -1,12 +1,12 @@
 //next imports
 import Image from "next/image";
-import Apresentation from "@/components/apresentation";
-import Synopse from "@/components/synopse";
-import Trailer from "@/components/trailer";
+import Apresentation from "@/components/client/apresentation";
+import Synopse from "@/components/client/synopse";
+import Trailer from "@/components/client/trailer";
+import Characters from "@/components/characters";
 
 //media
 import darkforest from "@/images/darkbackgroundforest.png";
-import Characters from "@/components/characters";
 
 export default function Home() {
   return (
