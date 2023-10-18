@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-=======
 "use client";
->>>>>>> 7d912e6900fa1e561aed90c40347c99f048bf0ca
+
 //next imports
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -9,12 +7,8 @@ import Image from "next/image";
 //components
 import Header from "./header";
 
-<<<<<<< HEAD
-//midias
-=======
 //media
->>>>>>> 7d912e6900fa1e561aed90c40347c99f048bf0ca
-import title from "@/images/hometitle.png";
+import title from "../public/images/hometitle.png";
 
 export default function Apresentation() {
   return (
@@ -22,7 +16,7 @@ export default function Apresentation() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, type: "linear" }}
-      className="bg-[url('../images/homebackground.png')] h-screen px-32 py-10 bg-cover bg-no-repeat font-andadaPro w-full items-center"
+      className="bg-[url('../public/images/homebackground.png')] h-screen px-32 py-10 bg-cover bg-no-repeat font-andadaPro w-full items-center"
     >
       <Header />
       <motion.div

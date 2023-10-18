@@ -1,15 +1,27 @@
 //next imports
 import Image from "next/image";
+import { useContext } from "react";
+
+//components
 import ButtonSection from "./buttons-section";
 
+//context
+import { CharacterContext } from "@/context/characterContext";
+
 //media
-import charlie from "../images/CharlieLonnit.png";
+import charlie from "../public/images/CharlieLonnit.png";
 
 export default function Characters() {
+  const { char } = useContext(CharacterContext);
+
+  console.log(char);
+
   return (
-    <div className="h-screen ">
-      <div className="bg-[url('../images/charliebackground.png')] bg-cover w-full h-full flex px-72 overflow-hidden">
-        <div className="text-white py-10 flex flex-col justify-around">
+    <div
+      className={`h-screen flex justify-center bg-[url('../public/images/charliebackground.png')] bg-cover`}
+    >
+      <div className=" h-full flex itens-center w-2/3">
+        <div className="text-white py-4 flex flex-col justify-around">
           <div className="font-kronaOne text-8xl uppercase">
             <h1 className="flex flex-col">
               Charlie
@@ -17,7 +29,7 @@ export default function Characters() {
             </h1>
             <div className="bg-blue-400 h-[2px] mt-4 w-full"></div>
           </div>
-          <p className="">
+          <p className="-mt-10">
             Fundador da Lonnit Entertainment e diretor do documentário
             Architects of Murder. Charles é um dos cinco personagens jogáveis em
             The Devil In Me. <br />
