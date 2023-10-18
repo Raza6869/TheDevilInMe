@@ -4,21 +4,21 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 //media
-import duMet from "@/svg/synopsedumet.svg";
+import duMet from "@/public/svg/synopsedumet.svg";
 
 export default function Synopse() {
   return (
     <motion.div
       initial={{ opacity: 0.5, scale: 0.9 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 1, type: "spring", delay: 0.7 }}
-      className="bg-[#252323] h-[600px] max-w-[1050px] first-letter: rounded-[6rem] my-12 scale-90 "
+      transition={{ duration: 1, type: "spring", delay: 0.5 }}
+      className="bg-[#252323] h-[500px] max-w-[950px] first-letter: rounded-[6rem] my-12 scale-90 "
     >
-      <div className="bg-[url('../images/synopsebackground.png')] bg-contain rounded-[6rem] bg-no-repeat bg bg-bottom h-full flex">
+      <div className="bg-[url('../public/images/synopsebackground.png')] bg-contain rounded-[6rem] bg-no-repeat bg bg-bottom h-full flex">
         <Image
           src={duMet}
           alt="Du'Met"
-          className="h-[100%] w-fit -mr-48 scale-110 -mt-8 "
+          className="h-[100%] w-fit -mr-48 scale-110 -mt-6 "
         />
         <div className="text-right font-andadaPro py-16 px-20 flex flex-col gap-10">
           <h1 className="font-bold text-5xl text-redbase">

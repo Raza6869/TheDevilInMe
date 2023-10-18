@@ -7,10 +7,10 @@ export default function Trailer() {
       <motion.iframe
         initial={{ opacity: 0.5, scale: 0.9 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1, type: "spring", delay: 1 }}
+        transition={{ duration: 1, type: "spring", delay: 0.5 }}
         className="rounded-md"
-        width="840"
-        height="472,5"
+        width="672"
+        height="378"
         src="https://www.youtube.com/embed/Nn5dK65VugY?si=BQ5wRkc9DiV0mfl-&amp;start=0"
         title="YouTube video player"
         frameborder="0"
