@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*text color*/
+.charlietextcolor {
+  @apply text-blue-400;
+}
+.jamietextcolor {
+  @apply text-purple-400;
+}
+.erintextcolor {
+  @apply text-yellow-400;
+}
+.katetextcolor {
+  @apply text-orange-400;
+}
+.marktextcolor {
+  @apply text-green-400;
+}
+
+/*line color*/
+.charlielinecolor {
+  @apply bg-blue-400;
+}
+.jamielinecolor {
+  @apply bg-purple-400;
+}
+.erinlinecolor {
+  @apply bg-yellow-400;
+}
+.katelinecolor {
+  @apply bg-orange-400;
+}
+.marklinecolor {
+  @apply bg-green-400;
+}
+
+/*background*/
+.charliebackground {
+  @apply bg-[url('../public/images/charliebackground.png')];
+}
+.jamiebackground {
+  @apply bg-[url('../public/images/jamiebackground.png')];
+}
+.erinbackground {
+  @apply bg-[url('../public/images/erinbackground.png')];
+}
+.katebackground {
+  @apply bg-[url('../public/images/katebackground.png')];
+}
+.markbackground {
+  @apply bg-[url('../public/images/markbackground.png')];
+}

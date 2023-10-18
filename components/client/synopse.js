@@ -9,8 +9,8 @@ import duMet from "@/public/svg/synopsedumet.svg";
 export default function Synopse() {
   return (
     <motion.div
-      initial={{ opacity: 0.5, scale: 0.9 }}
-      whileInView={{ opacity: 1, scale: 1 }}
+      initial={{ opacity: 0.5 }}
+      whileInView={{ opacity: 1 }}
       transition={{ duration: 1, type: "spring", delay: 0.5 }}
       className="bg-[#252323] h-[500px] max-w-[950px] first-letter: rounded-[6rem] my-12 scale-90 "
     >
