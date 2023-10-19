@@ -11,9 +11,10 @@ import Characters from "@/components/client/characters";
 //context
 import CharacterProvider from "@/context/characterProvider";
 
-//mediagit
+//media
 import darkforest from "@/public/images/darkbackgroundforest.png";
 import Multiplayer from "@/components/client/multiplayer";
+import avaliations from "@/public/images/avaliations.png";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
           <Characters />
         </CharacterProvider>
         <Multiplayer />
+        <Image src={avaliations} alt="Avaliations" className="w-screen mt-48" />
       </div>
     </main>
   );

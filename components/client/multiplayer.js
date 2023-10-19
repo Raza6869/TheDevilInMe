@@ -3,8 +3,8 @@ import InfoCard from "./info-card";
 
 export default function Multiplayer() {
   return (
-    <div className="bg-[url('../public/images/multiplayerbackground.png')]  bg-cover h-screen mt-20 flex flex-col gap-12 items-center justify-center">
-      <h1 className="font-bold text-white uppercase font-andadaPro text-5xl">
+    <div className="bg-[url('../public/images/multiplayerbackground.png')] bg-cover bg-no-repeat bg-center h-screen mt-20 flex flex-col gap-12 items-center justify-center">
+      <h1 className="font-bold text-white uppercase font-andadaPro text-5xl mt-48">
         jogue com seus amigos
       </h1>
       <div className="flex justify-center gap-8">

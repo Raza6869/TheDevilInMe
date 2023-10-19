@@ -22,7 +22,7 @@ export default function Characters() {
         animate={{ opacity: 1, translateX: 0 }}
         exit={{ opacity: 0, translateX: -20 }}
         transition={{ duration: 0.5 }}
-        className={`h-screen ${char.background} bg-cover flex justify-center `}
+        className={`h-screen ${char.background} bg-cover bg-top flex justify-center `}
       >
         <div className=" w-2/3 flex">
           <div className="text-white py-10 flex flex-col justify-around w-2/3">
