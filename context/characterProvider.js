@@ -5,7 +5,7 @@ import { useState } from "react";
 import { CharacterContext } from "./characterContext";
 
 export default function CharacterProvider({ children }) {
-  const [index, setIndex] = useState(1);
+  const [index, setIndex] = useState(0);
 
   const indexTogle = () => setIndex(index >= 4 ? 0 : index + 1);
   const lastIndexTogle = () => setIndex(index <= 0 ? 4 : index - 1);

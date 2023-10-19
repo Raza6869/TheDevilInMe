@@ -12,7 +12,8 @@ export default function Synopse() {
       initial={{ opacity: 0.5 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1, type: "spring", delay: 0.5 }}
-      className="bg-[#252323] h-[500px] max-w-[950px] first-letter: rounded-[6rem] my-12 scale-90 "
+      viewport={{ once: true }}
+      className="bg-[#252323] h-[500px] max-w-[950px] first-letter: rounded-[6rem] my-12 scale-9 shadow-xl shadow-black"
     >
       <div className="bg-[url('../public/images/synopsebackground.png')] bg-contain rounded-[6rem] bg-no-repeat bg bg-bottom h-full flex">
         <Image

@@ -8,7 +8,8 @@ export default function Trailer() {
         initial={{ opacity: 0.5 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, type: "spring", delay: 0.5 }}
-        className="rounded-md hover:scale-110 transition-all ease-in-out duration-700"
+        viewport={{ once: true }}
+        className="rounded-md hover:scale-110 transition-all ease-in-out duration-700 shadow-lg shadow-black"
         width="672"
         height="378"
         src="https://www.youtube.com/embed/Nn5dK65VugY?si=BQ5wRkc9DiV0mfl-&amp;start=0"
