@@ -13,6 +13,7 @@ import CharacterProvider from "@/context/characterProvider";
 
 //mediagit
 import darkforest from "@/public/images/darkbackgroundforest.png";
+import Multiplayer from "@/components/client/multiplayer";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <CharacterProvider>
           <Characters />
         </CharacterProvider>
+        <Multiplayer />
       </div>
     </main>
   );
