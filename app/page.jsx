@@ -3,18 +3,20 @@
 import Image from "next/image";
 
 //components
-import Apresentation from "@/components/client/apresentation";
-import Synopse from "@/components/client/synopse";
-import Trailer from "@/components/client/trailer";
-import Characters from "@/components/client/characters";
+import Apresentation from "@/components/apresentation";
+import Synopse from "@/components/synopse";
+import Trailer from "@/components/trailer";
+import Characters from "@/components/characters";
+import Multiplayer from "@/components/multiplayer";
+import BuyNow from "@/components/buynow";
 
 //context
 import CharacterProvider from "@/context/characterProvider";
 
 //media
 import darkforest from "@/public/images/darkbackgroundforest.png";
-import Multiplayer from "@/components/client/multiplayer";
 import avaliations from "@/public/images/avaliations.png";
+import darkblood from "@/public/images/darkbackgroundblood.png";
 
 export default function Home() {
   return (
@@ -30,8 +32,10 @@ export default function Home() {
           <Characters />
         </CharacterProvider>
         <Multiplayer />
-        <Image src={avaliations} alt="Avaliations" className="w-screen mt-48" />
+        <Image src={avaliations} alt="Avaliations" className="w-screen my-48" />
       </div>
+      <Image src={darkblood} alt="sangue negro" />
+      <BuyNow />
     </main>
   );
 }
