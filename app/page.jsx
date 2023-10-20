@@ -17,6 +17,8 @@ import CharacterProvider from "@/context/characterProvider";
 import darkforest from "@/public/images/darkbackgroundforest.png";
 import avaliations from "@/public/images/avaliations.png";
 import darkblood from "@/public/images/darkbackgroundblood.png";
+import Unoficial from "@/components/unoficial";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -36,6 +38,8 @@ export default function Home() {
       </div>
       <Image src={darkblood} alt="sangue negro" />
       <BuyNow />
+      <Unoficial />
+      <Contact />
     </main>
   );
 }
