@@ -11,7 +11,7 @@ export default function BuyButton({ url, imageUrl, alt }) {
       <Image
         src={imageUrl}
         alt={alt}
-        className={alt === "Xbox Series S" ? "w-18" : "w-full"}
+        className={alt === "Xbox Series S" ? "w-20" : "w-full"}
       />
     </Link>
   );

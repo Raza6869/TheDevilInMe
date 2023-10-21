@@ -19,6 +19,7 @@ import avaliations from "@/public/images/avaliations.png";
 import darkblood from "@/public/images/darkbackgroundblood.png";
 import Unoficial from "@/components/unoficial";
 import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <BuyNow />
       <Unoficial />
       <Contact />
+      <Footer />
     </main>
   );
 }
