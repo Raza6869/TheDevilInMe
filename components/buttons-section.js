@@ -14,7 +14,7 @@ export default function ButtonSection() {
       animate={{ translateX: 0, opacity: 1 }}
       exit={{ translateX: -20, opacity: 0 }}
       transition={{ duration: 0.6, delay: 0.6 }}
-      className="flex font-andadaPro gap-4 font-bold text-xl "
+      className="flex font-andadaPro gap-4 font-bold sm:text-xl text-base mb-4 "
     >
       <button
         onClick={lastIndexTogle}

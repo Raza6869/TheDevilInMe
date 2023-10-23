@@ -11,7 +11,7 @@ import xboxs from "@/public/images/xboxs.png";
 export default function BuyNow() {
   return (
     <div className="py-32 flex flex-col items-center justify-center gap-12">
-      <h1 className="text-5xl uppercase font-bold font-andadaPro">
+      <h1 className="sm:text-5xl text-3xl uppercase font-bold font-andadaPro text-center  ">
         Compre agora
       </h1>
       <div className="flex gap-6 flex-wrap  justify-center">
