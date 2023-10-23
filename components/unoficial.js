@@ -9,7 +9,7 @@ export default function Unoficial() {
         <h1 className="sm:text-5xl text-4xl font-andadaPro text-darkgray font-bold">
           ESTE SITE NÃO É OFICIAL!
         </h1>
-        <p className="font-gothic text-gray-400">
+        <p className="font-gothic text-neutral-600">
           Este site é apenas um projeto de demonstração de habilidades do
           Designer/Front-end Rafael Thumaza. Com intuito de promover uma visão
           de apresentação de um determinado conteúdo de forma dinâmica e

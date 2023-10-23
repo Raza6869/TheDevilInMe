@@ -35,7 +35,11 @@ export default function Home() {
           <Characters />
         </CharacterProvider>
         <Multiplayer />
-        <Image src={avaliations} alt="Avaliations" className="w-screen my-48" />
+        <Image
+          src={avaliations}
+          alt="Avaliations"
+          className="w-screen sm:my-48 my-20"
+        />
       </div>
       <Image src={darkblood} alt="sangue negro" />
       <BuyNow />

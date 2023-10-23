@@ -3,11 +3,11 @@ import InfoCard from "./info-card";
 
 export default function Multiplayer() {
   return (
-    <div className="bg-[url('../public/images/multiplayerbackground.png')] bg-cover bg-no-repeat bg-center h-screen mt-20 flex flex-col gap-12 items-center justify-center">
-      <h1 className="font-bold text-white uppercase font-andadaPro text-5xl mt-48">
+    <div className="bg-[url('../public/images/multiplayerbackground.png')] sm:bg-cover bg-fixed bg-auto bg-no-repeat bg-center h-screen mt-20 flex flex-col gap-12 items-center justify-center">
+      <h1 className="font-bold text-white uppercase font-andadaPro text-3xl sm:text-5xl mt-48">
         jogue com seus amigos
       </h1>
-      <div className="flex justify-center gap-8">
+      <div className="flex flex-col sm:flex-row justify-center gap-8">
         <InfoCard
           title="MODO COOPERATIVO LOCAL"
           desc="Com o modo cooperativo local de The Devil In Me, você e até cinco amigos podem experimentar juntos todo esse terror. Cada jogador é designado para jogar como um ou mais conselheiros, com um controle passando pelo grupo cada vez que um conselheiro diferente se torna o personagem jogável da vez. depende de você e seus amigos se vocês vão decidir trabalhar em conjunto ou, de repente, levar a história para uma nova direção!"

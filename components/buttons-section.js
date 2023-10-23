@@ -18,7 +18,7 @@ export default function ButtonSection() {
     >
       <button
         onClick={lastIndexTogle}
-        className="uppercase py-3 px-6 hover:px-8 transition-all ease-in-out border-2 border-white rounded-md"
+        className="uppercase py-3 px-6 hover:px-8 transition-all ease-in-out border-2 border-white rounded-md "
       >
         Anterior
       </button>
