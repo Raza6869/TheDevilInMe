@@ -14,11 +14,13 @@ export default function Header() {
       transition={{ duration: 1, type: "linear", delay: 0.5 }}
       className="flex items-center justify-between max-w-[535px] "
     >
-      <Image
-        src={DarkPictureLogo}
-        alt="Logo da Dark Pictures"
-        className="w-12 cursor-pointer hover:scale-105 transition-all duration-700"
-      />
+      <a href="https://www.thedarkpictures.com/the-devil-in-me">
+        <Image
+          src={DarkPictureLogo}
+          alt="Logo da Dark Pictures"
+          className="w-12 cursor-pointer hover:scale-105 transition-all duration-700"
+        />
+      </a>
       <ul className="flex gap-6 font-andadaPro uppercase">
         <li className="hover:text-darkred cursor-pointer">sobre</li>
         <li className="hover:text-darkred cursor-pointer">personagens</li>
