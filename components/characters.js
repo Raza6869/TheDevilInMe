@@ -22,6 +22,7 @@ export default function Characters() {
         animate={{ opacity: 1, translateX: 0 }}
         exit={{ opacity: 0, translateX: -20 }}
         transition={{ duration: 0.5 }}
+        id="characters"
         className={`sm:h-[100vh] h-[50vh] w-screen overflow-y-hidden sm:my-0 my-20 ${char.background}  bg-cover bg-top flex sm:flex-row flex-col justify-center `}
       >
         <div className=" sm:w-2/3 w-screen flex ">

@@ -22,9 +22,15 @@ export default function Header() {
         />
       </a>
       <ul className="flex gap-6 font-andadaPro uppercase">
-        <li className="hover:text-darkred cursor-pointer">sobre</li>
-        <li className="hover:text-darkred cursor-pointer">personagens</li>
-        <li className="hover:text-darkred cursor-pointer">compre agora</li>
+        <li className="hover:text-darkred cursor-pointer">
+          <a href="#about">sobre</a>
+        </li>
+        <li className="hover:text-darkred cursor-pointer">
+          <a href="#characters">personagens</a>
+        </li>
+        <li className="hover:text-darkred cursor-pointer">
+          <a href="#buyNow">compre agora</a>
+        </li>
       </ul>
     </motion.header>
   );

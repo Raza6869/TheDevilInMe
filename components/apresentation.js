@@ -35,9 +35,12 @@ export default function Apresentation() {
           Será que você consegue sobreviver a uma noite em um hotel <br /> onde
           matar é arte?
         </p>
-        <button className="bg-darkred  text-white uppercase w-48 px-4 py-3 mt-10 rounded-md hover:scale-110 hover:bg-red-600 transition-all duration-700">
+        <a
+          href="#buyNow"
+          className="bg-darkred text-white text-center uppercase w-48 px-4 py-3 mt-10 rounded-md hover:scale-110 hover:bg-red-600 transition-all duration-700"
+        >
           compre agora
-        </button>
+        </a>
       </motion.div>
     </motion.div>
   );

@@ -10,7 +10,10 @@ import xboxs from "@/public/images/xboxs.png";
 
 export default function BuyNow() {
   return (
-    <div className="py-32 flex flex-col items-center justify-center gap-12">
+    <div
+      className="py-32 flex flex-col items-center justify-center gap-12"
+      id="buyNow"
+    >
       <h1 className="sm:text-5xl text-3xl uppercase font-bold font-andadaPro text-center  ">
         Compre agora
       </h1>

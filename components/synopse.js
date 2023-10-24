@@ -13,6 +13,7 @@ export default function Synopse() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1, type: "spring", delay: 0.5 }}
       viewport={{ once: true }}
+      id="about"
       className="bg-[#252323] sm:h-[500px] h-full sm:max-w-[950px] first-letter: sm:rounded-[6rem] rounded-2xl my-12 shadow-xl shadow-black sm:overflow-auto overflow-hidden "
     >
       <div className="bg-[url('../public/images/synopsebackground.png')] bg-contain sm:rounded-[6rem] rounded-2xl bg-no-repeat bg bg-bottom h-full flex sm:flex-row flex-col-reverse items-end ">
