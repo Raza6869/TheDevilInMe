@@ -4,7 +4,7 @@ import InfoCard from "./info-card";
 export default function Multiplayer() {
   return (
     <div className="bg-[url('../public/images/multiplayerbackground.png')] sm:bg-cover bg-fixed bg-auto bg-no-repeat bg-center sm:h-screen mt-32 flex flex-col gap-12 items-center justify-center ">
-      <h1 className="font-bold text-white uppercase font-andadaPro text-center text-2xl sm:text-5xl sm:mt-48 mt-14">
+      <h1 className="font-bold text-white uppercase font-andadaPro text-center text-2xl sm:text-5xl  mt-14">
         jogue com seus amigos
       </h1>
       <div className="flex flex-col sm:flex-row justify-center gap-8">
