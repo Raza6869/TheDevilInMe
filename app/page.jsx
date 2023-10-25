@@ -38,7 +38,7 @@ export default function Home() {
         <Image
           src={avaliations}
           alt="Avaliations"
-          className="w-screen sm:my-48 mt-28 mb-20 "
+          className="w-screen sm:my-48 mt-28 mb-20 sm:translate-x-0 -translate-x-24 sm:scale-0 scale-150"
         />
       </div>
       <Image src={darkblood} alt="sangue negro" />

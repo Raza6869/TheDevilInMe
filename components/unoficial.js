@@ -1,6 +1,6 @@
 export default function Unoficial() {
   return (
-    <div className="py-8 flex sm:flex-row flex-col sm:px-32  items-center justify-around gap-8">
+    <div className="py-8 flex sm:flex-row flex-col sm:px-32  items-center justify-around">
       <div className="text-redbase font-bold font-andadaPro flex flex-col  items-center">
         <i class="bi bi-exclamation-triangle sm:text-[172px] text-[100px] -mb-4"></i>
         <h1 className="sm:text-5xl text-4xl">ATENÇÃO</h1>
