@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*text color*/
 .charlietextcolor {
   @apply text-blue-400;

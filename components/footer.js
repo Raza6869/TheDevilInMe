@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="flex sm:gap-16 gap-8 h-[40vh] w-full text-white bg-[#414141] justify-center items-center">
+    <footer className="flex sm:flex-row flex-col-reverse  sm:gap-16 gap-8 sm:h-[40vh] h-[80vh]  w-full text-white bg-[#414141] sm:justify-center justify-end sm:py-0 py-14 items-center ">
       <Image src={razalogo} alt="Raza logo" className="sm:h-56 h-48 w-fit" />
       <div className="flex sm:gap-16 gap-8">
         <div className="flex flex-col gap-4">

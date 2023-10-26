@@ -23,11 +23,11 @@ export default function Characters() {
         exit={{ opacity: 0, translateX: -20 }}
         transition={{ duration: 0.5 }}
         id="characters"
-        className={`sm:h-[100vh] h-[50vh] w-screen sm:my-0 my-20 ${char.background}  bg-cover bg-top flex sm:flex-row flex-col justify-center `}
+        className={`sm:h-[100vh] h-[35vh] w-screen sm:my-0 my-20 ${char.background}  bg-cover bg-top flex sm:flex-row flex-col justify-center `}
       >
         <div className=" sm:w-2/3 flex w-full">
-          <div className="text-white py-10 flex flex-col justify-around sm:w-2/3 w-1/2 z-10 ml-5 sm:ml-0">
-            <div className="font-kronaOne sm:text-8xl text-5xl uppercase">
+          <div className="text-white py-10 flex flex-col sm:justify-around justify-center sm:w-2/3 w-1/2 z-10 ml-5 sm:ml-0">
+            <div className="font-kronaOne sm:text-8xl text-4xl uppercase">
               <motion.h1
                 key={index}
                 initial={{ translateX: 20, opacity: 0 }}
@@ -66,7 +66,7 @@ export default function Characters() {
               animate={{ translateX: 0, opacity: 1 }}
               exit={{ translateX: -20, opacity: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className={`${char.color} text-md sm:text-2xl sm:mb-0 mb-4`}
+              className={`${char.color} text-[10px] sm:text-2xl sm:mb-0 mb-4`}
             >
               {char.attributes}
             </motion.h2>
@@ -75,7 +75,7 @@ export default function Characters() {
           <Image
             src={char.image}
             alt={char.fname}
-            className="sm:w-fit hover:z-10 hover:translate-x-10 transition-all ease-in-out duration-700 sm:opacity-100 "
+            className="sm:w-fit w-[180px] h-fit sm:h-full hover:z-10 hover:translate-x-10 transition-all ease-in-out duration-700 sm:opacity-100 "
           />
         </div>
       </motion.div>

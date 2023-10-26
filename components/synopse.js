@@ -20,13 +20,13 @@ export default function Synopse() {
         <Image
           src={duMet}
           alt="Du'Met"
-          className="w-2/3 sm:w-fit h-full sm:-mr-48   -mt-64 -mr-28 sm:ml-0"
+          className="w-2/3 sm:w-fit h-full sm:-mr-48 -mt-64 -mr-28 sm:ml-0"
         />
         <div className="sm:text-right text-center font-andadaPro sm:py-16 py-12 sm:px-20 px-4 flex flex-col sm:gap-10 gap-8 z-10 items-center">
           <h1 className="font-bold sm:text-5xl text-3xl text-redbase">
             POR QUE A PRESSA? COMEÇAMOS AGORA
           </h1>
-          <p className="font-gothic text-white sm:ml-20">
+          <p className="font-gothic text-white sm:ml-20 sm:text-base text-sm">
             The Devil In Me é um jogo Thriller interativo onde você tem o
             controle de cinco documentaristas que foram convidados à visitar uma
             réplica do “Castelo da Morte” de H. H. Holmes, o primeiro assassino
@@ -34,7 +34,10 @@ export default function Synopse() {
             observados e até manipulados, e de repente, há muito mais em jogo do
             que imaginam...
           </p>
-          <a className=" text-lightgray bg-redbase p-2 rounded-md sm:bg-transparente w-fit sm:w-auto text-center font-bold sm:text-3xl text-xl sm:ml-20 ml-0 justify-center cursor-pointer flex gap-2 hover:gap-4 transition-all duration-500 hover:scale-105">
+          <a
+            href="https://thedarkpictures.fandom.com/wiki/The_Devil_in_Me"
+            className=" text-lightgray bg-red-800 p-2 rounded-md sm:bg-transparente w-fit sm:w-auto text-center font-bold sm:text-3xl text-xl sm:ml-20 ml-0 justify-center cursor-pointer flex gap-2 hover:gap-4 transition-all duration-500 hover:scale-105"
+          >
             SAIBA MAIS{" "}
             <span>
               <i class="bi bi-arrow-right"></i>

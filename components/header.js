@@ -18,10 +18,10 @@ export default function Header() {
         <Image
           src={DarkPictureLogo}
           alt="Logo da Dark Pictures"
-          className="w-12 cursor-pointer hover:scale-105 transition-all duration-700"
+          className="sm:w-12 w-10 cursor-pointer hover:scale-105 transition-all duration-700"
         />
       </a>
-      <ul className="flex gap-6 font-andadaPro uppercase">
+      <ul className="flex gap-6 font-andadaPro uppercase sm:text-base text-[10px]">
         <li className="hover:text-darkred cursor-pointer">
           <a href="#about">sobre</a>
         </li>

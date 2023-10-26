@@ -16,7 +16,7 @@ export default function Apresentation() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, type: "linear" }}
-      className="bg-[url('../public/images/homebackground.png')] h-screen px-32 py-10 bg-cover bg-no-repeat font-andadaPro w-full items-center"
+      className="sm:bg-[url('../public/images/homebackground.png')] bg-[url('../public/images/apresentationbackgroundmobile.png')] sm:h-screen h-[70vh] sm:px-32 sm:py-10 px-8 py-4 bg-cover bg-no-repeat font-andadaPro w-full flex flex-col items-left justify-start"
     >
       <Header />
       <motion.div
@@ -26,7 +26,7 @@ export default function Apresentation() {
         className="flex flex-col mt-20"
       >
         <div className="">
-          <Image src={title} alt="Titulo" className="h-48 w-fit" />
+          <Image src={title} alt="Titulo" className="sm:h-48 sm:w-fit" />
           <span className="uppercase text-darkred text-2xl font-bold relative left-[22.8rem] bottom-12">
             já disponível
           </span>
