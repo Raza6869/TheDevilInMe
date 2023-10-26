@@ -9,6 +9,7 @@ import Trailer from "@/components/trailer";
 import Characters from "@/components/characters";
 import Multiplayer from "@/components/multiplayer";
 import BuyNow from "@/components/buynow";
+import ScrollToTop from "@/components/scrolltotop";
 
 //context
 import CharacterProvider from "@/context/characterProvider";
@@ -25,6 +26,7 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center items-center overflow-x-hidden ">
       <Apresentation />
+      <ScrollToTop />
       <div className="bg-[url('../public/images/trailerbackground.png')] bg-contain bg-no-repeat bg-fixed bg-top w-full items-center flex flex-col justify-center">
         <Synopse />
         <Trailer />
