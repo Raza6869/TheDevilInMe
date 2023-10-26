@@ -14,11 +14,12 @@ export default function Contact() {
         <Image src={raza} alt="Rafael Thumaza Dev" className="sm:w-56 w-40" />
         <span className="font-bold sm:text-2xl text-xl">RAFAEL THUMAZA</span>
       </div>
-      <button className="text-white font-bold bg-red-900 hover:bg-red-950 hover:scale-90 transition-all ease-in-out duration-500 py-4 px-8 rounded-xl">
-        <a href="https://www.linkedin.com/in/rafael-thumaza-744b17250/">
+
+      <a href="https://www.linkedin.com/in/rafael-thumaza-744b17250/">
+        <button className="text-white font-bold bg-red-900 hover:bg-red-950 hover:scale-90 transition-all ease-in-out duration-500 py-4 px-8 rounded-xl">
           FALE COMIGO
-        </a>
-      </button>
+        </button>
+      </a>
     </div>
   );
 }
